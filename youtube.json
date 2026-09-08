@@ -1,0 +1,18 @@
+{
+  "type": "pages",
+  "headline": "YouTube",
+  "template": {
+    "type": "default",
+    "layout": "0,0,3,2",
+    "color": "msx-glass",
+    "imageFiller": "cover",
+    "action": "link"
+  },
+  "items": [
+    {
+      "title": "YouTube",
+      "image": "https://www.youtube.com/img/desktop/yt_1200.png",
+      "action": "link:https://www.youtube.com/"
+    }
+  ]
+}
