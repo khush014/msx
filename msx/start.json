@@ -1,0 +1,5 @@
+{
+  "name": "YouTube",
+  "version": "1.0",
+  "parameter": "link:https://www.youtube.com/"
+}
