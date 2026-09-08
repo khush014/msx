@@ -1,0 +1,10 @@
+{
+  "type": "menu",
+  "headline": "YouTube",
+  "items": [
+    {
+      "title": "YouTube",
+      "action": "link:https://www.youtube.com/"
+    }
+  ]
+}
