@@ -1,5 +1,5 @@
 {
-  "name": "YouTube by Khush for MSX",
+  "name": "YouTube for Media Station X",
   "version": "1.0.0",
-  "parameter": "content:https://khush014.github.io/msx/youtube.json"
+  "parameter": "menu:https://khush014.github.io/msx/data/menu.json"
 }
