@@ -1,35 +1,57 @@
 {
-  "type": "menu",
+  "name": "YouTube for Media Station X",
+  "version": "1.0.0",
   "headline": "YouTube",
-  "items": [
+  "menu": [
     {
-      "title": "Main",
-      "items": [
-        {
-          "title": "YouTube",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/b/b8/YouTube_Logo_2017.svg",
-          "action": "link",
-          "url": "https://www.youtube.com/tv/"
-        }
-      ]
+      "label": "Main",
+      "data": {
+        "pages": [
+          {
+            "items": [
+              {
+                "layout": "0,0,3,2",
+                "color": "msx-glass",
+                "image": "https://upload.wikimedia.org/wikipedia/commons/b/b8/YouTube_Logo_2017.svg",
+                "title": "YouTube",
+                "action": "link:https://www.youtube.com/tv/"
+              }
+            ]
+          }
+        ]
+      }
     },
     {
-      "title": "Info",
-      "items": [
-        {
-          "title": "YouTube",
-          "description": "YouTube TV interface for Media Station X."
-        }
-      ]
+      "label": "Info",
+      "data": {
+        "pages": [
+          {
+            "items": [
+              {
+                "layout": "0,0,12,2",
+                "headline": "YouTube",
+                "text": "YouTube TV interface for Media Station X."
+              }
+            ]
+          }
+        ]
+      }
     },
     {
-      "title": "Credits",
-      "items": [
-        {
-          "title": "YouTube",
-          "description": "YouTube is a trademark of Google LLC."
-        }
-      ]
+      "label": "Credits",
+      "data": {
+        "pages": [
+          {
+            "items": [
+              {
+                "layout": "0,0,12,2",
+                "headline": "Credits",
+                "text": "YouTube is a trademark of Google LLC.\n\nPort Created by Khush Thakkar\nGitHub Page: khush014.github.io/msx"
+              }
+            ]
+          }
+        ]
+      }
     }
   ]
 }
